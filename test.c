@@ -38,7 +38,7 @@ int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine
 }
 
 
-export BOOL CALLBACK WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
+EXPORT BOOL CALLBACK WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
      HDC hdc;
      PAINTSTRUCT ps;
@@ -47,14 +47,14 @@ export BOOL CALLBACK WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lPar
      switch(message)
      {
      case WM_PAINT:
-          hdc= BeginPaint(hwnd, &ps);
+          hdc= BeginPaint(hwnd,&ps);
           
-          GetClientRect(hwnd, &rect);
+          GetClientRect(hwnd,&rect);
           
-          CenterText(hdc, &rect, TEXT ("This string displayed by a DLL"));
+          CenterText(hdc,&rect,TEXT("This string displayed by a DLL"));
           
-          EndPaint(hwnd, &ps) ;
-          return 0 ;
+          EndPaint(hwnd,&ps);
+          return 0;
           
      case WM_DESTROY:
           PostQuitMessage(0);
