@@ -1,4 +1,6 @@
->InitializeBuildStatus:
+1>------ Build started: Project: simpledll, Configuration: Debug Win32 ------
+1>Build started 28-04-2014 23:56:46.
+1>InitializeBuildStatus:
 1>  Touching "Debug\simpledll.unsuccessfulbuild".
 1>ClCompile:
 1>  test.c
