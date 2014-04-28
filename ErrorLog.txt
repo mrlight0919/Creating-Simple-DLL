@@ -1,4 +1,52 @@
 1>------ Build started: Project: simpledll, Configuration: Debug Win32 ------
+1>Build started 29-04-2014 00:08:54.
+1>InitializeBuildStatus:
+1>  Touching "Debug\simpledll.unsuccessfulbuild".
+1>ClCompile:
+1>  test.c
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2146: syntax error : missing ')' before identifier 'hInstance'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2061: syntax error : identifier 'hInstance'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2059: syntax error : ';'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2059: syntax error : ','
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2059: syntax error : ')'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): error C2146: syntax error : missing ')' before identifier 'hwnd'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): error C2061: syntax error : identifier 'hwnd'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): error C2059: syntax error : ';'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): error C2059: syntax error : ','
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): error C2059: syntax error : ')'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(50): warning C4002: too many actual parameters for macro 'BeginPaint'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(52): warning C4002: too many actual parameters for macro 'GetClientRect'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(54): warning C4002: too many actual parameters for macro 'CenterTextA'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(56): warning C4002: too many actual parameters for macro 'EndPaint'
+1>  simpledll.c
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2146: syntax error : missing ')' before identifier 'hInstance'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2061: syntax error : identifier 'hInstance'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2059: syntax error : ';'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2059: syntax error : ','
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2059: syntax error : ')'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(9): warning C4002: too many actual parameters for macro 'CenterTextA'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(10): error C2059: syntax error : '{'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(14): warning C4002: too many actual parameters for macro 'GetTextExtentPoint32A'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(15): warning C4002: too many actual parameters for macro 'prc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(15): warning C4002: too many actual parameters for macro 'prc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2146: syntax error : missing ')' before identifier 'hdc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2061: syntax error : identifier 'hdc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2059: syntax error : ';'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2059: syntax error : ','
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2059: syntax error : ')'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(22): warning C4002: too many actual parameters for macro 'GetTextExtentPoint32W'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(23): warning C4002: too many actual parameters for macro 'prc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(23): warning C4002: too many actual parameters for macro 'prc'
+1>  Generating Code...
+1>
+1>Build FAILED.
+1>
+1>Time Elapsed 00:00:02.65
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+
+1>------ Build started: Project: simpledll, Configuration: Debug Win32 ------
 1>Build started 28-04-2014 23:56:46.
 1>InitializeBuildStatus:
 1>  Touching "Debug\simpledll.unsuccessfulbuild".
