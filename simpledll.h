@@ -1,3 +1,4 @@
+//simpledll.c
 #ifdef __cplusplus
 #define export extern "C" __declspec (dllexport)
 #else
@@ -10,3 +11,10 @@ export bool CALLBACK CenterTextW (HDC hdc, PRECT prc, PCWSTR pString);
 #else
 #define CenterText CenterTextA
 #endif
+//test.c
+#ifdef __cplusplus
+#define export extern "C" __declspec (dllexport)
+#else
+#define export __declspec (dllexport)
+#endif
+export bool CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam);
