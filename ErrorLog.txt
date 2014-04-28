@@ -1,4 +1,104 @@
 1>------ Build started: Project: simpledll, Configuration: Debug Win32 ------
+1>Build started 28-04-2014 22:57:55.
+1>InitializeBuildStatus:
+1>  Touching "Debug\simpledll.unsuccessfulbuild".
+1>ClCompile:
+1>  test.c
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(23): warning C4005: 'export' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(11) : see previous definition of 'export'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(24): warning C4005: 'export' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(23) : see previous definition of 'export'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(73): warning C4005: 'export' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(24) : see previous definition of 'export'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(78): warning C4005: 'int' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(21) : see previous definition of 'int'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2143: syntax error : missing '{' before '__stdcall'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2146: syntax error : missing ')' before identifier 'hInstance'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2061: syntax error : identifier 'hInstance'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2059: syntax error : ';'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2059: syntax error : ','
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2059: syntax error : ')'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): error C2146: syntax error : missing ')' before identifier 'hwnd'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): error C2082: redefinition of formal parameter 'WndProc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): error C2146: syntax error : missing ',' before identifier 'hwnd'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): error C2085: 'message' : not in formal parameter list
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): error C2146: syntax error : missing ',' before identifier 'message'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): error C2085: 'wParam' : not in formal parameter list
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): error C2146: syntax error : missing ',' before identifier 'wParam'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): error C2085: 'lParam' : not in formal parameter list
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): error C2146: syntax error : missing ',' before identifier 'lParam'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): error C2059: syntax error : ')'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(42): error C2143: syntax error : missing ';' before '{'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(43): error C2065: 'hdc' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(43): error C2146: syntax error : missing ';' before identifier 'hdc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(43): error C2065: 'hdc' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(44): error C2275: 'PAINTSTRUCT' : illegal use of this type as an expression
+1>          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winuser.h(2814) : see declaration of 'PAINTSTRUCT'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(44): error C2146: syntax error : missing ';' before identifier 'ps'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(44): error C2065: 'ps' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(45): error C2275: 'RECT' : illegal use of this type as an expression
+1>          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h(325) : see declaration of 'RECT'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(45): error C2146: syntax error : missing ';' before identifier 'rect'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(45): error C2065: 'rect' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(47): error C2065: 'message' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(50): error C2065: 'hdc' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(50): error C2065: 'hwnd' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(50): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'int'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(50): warning C4024: 'BeginPaint' : different types for formal and actual parameter 1
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(50): error C2065: 'ps' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(50): warning C4133: 'function' : incompatible types - from 'int *' to 'LPPAINTSTRUCT'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(50): warning C4047: '=' : 'int' differs in levels of indirection from 'HDC'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(52): error C2065: 'hwnd' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(52): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'int'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(52): warning C4024: 'GetClientRect' : different types for formal and actual parameter 1
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(52): error C2065: 'rect' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(52): warning C4133: 'function' : incompatible types - from 'int *' to 'LPRECT'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(54): error C2065: 'hdc' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(54): error C2146: syntax error : missing ')' before identifier 'hdc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(54): error C2059: syntax error : ')'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(56): error C2065: 'hwnd' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(56): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'int'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(56): warning C4024: 'EndPaint' : different types for formal and actual parameter 1
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(56): error C2065: 'ps' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(56): warning C4133: 'function' : incompatible types - from 'int *' to 'const PAINTSTRUCT *'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(63): error C2065: 'hwnd' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(63): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'int'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(63): warning C4024: 'DefWindowProcA' : different types for formal and actual parameter 1
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(63): error C2065: 'message' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(63): error C2065: 'wParam' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(63): error C2065: 'lParam' : undeclared identifier
+1>  simpledll.c
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(23): warning C4005: 'export' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(11) : see previous definition of 'export'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(24): warning C4005: 'export' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(23) : see previous definition of 'export'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(73): warning C4005: 'export' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(24) : see previous definition of 'export'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(78): warning C4005: 'int' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(21) : see previous definition of 'int'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2143: syntax error : missing '{' before '__stdcall'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2146: syntax error : missing ')' before identifier 'hInstance'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2061: syntax error : identifier 'hInstance'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2059: syntax error : ';'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2059: syntax error : ','
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2059: syntax error : ')'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(9): error C2059: syntax error : '('
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(14): warning C4002: too many actual parameters for macro 'GetTextExtentPoint32A'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(15): warning C4002: too many actual parameters for macro 'prc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(15): warning C4002: too many actual parameters for macro 'prc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(15): warning C4002: too many actual parameters for macro 'prc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(15): warning C4002: too many actual parameters for macro 'prc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(16): fatal error C1903: unable to recover from previous error(s); stopping compilation
+1>  Generating Code...
+1>
+1>Build FAILED.
+1>
+1>Time Elapsed 00:00:02.60
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+
+1>------ Build started: Project: simpledll, Configuration: Debug Win32 ------
 1>Build started 28-04-2014 22:48:44.
 1>InitializeBuildStatus:
 1>  Touching "Debug\simpledll.unsuccessfulbuild".
