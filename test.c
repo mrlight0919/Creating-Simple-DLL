@@ -1,8 +1,5 @@
 #include <windows.h>
 #include "simpledll.h"
-
-export bool CALLBACK WndProc (HWND, UINT, WPARAM, LPARAM) ;
-
 int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine, int iCmdShow)
 {
      static TCHAR szAppName[] = TEXT ("StrProg") ;
@@ -50,15 +47,14 @@ export bool CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lPa
      PAINTSTRUCT ps ;
      RECT        rect ;
      
-     switch (message)
+     switch(message)
      {
      case WM_PAINT:
           hdc = BeginPaint (hwnd, &ps) ;
           
           GetClientRect (hwnd, &rect) ;
           
-          CenterText (hdc, &rect, 
-                         TEXT ("This string displayed by a DLL")) ;
+          CenterText (hdc, &rect, TEXT ("This string displayed by a DLL")) ;
           
           EndPaint (hwnd, &ps) ;
           return 0 ;
