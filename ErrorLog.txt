@@ -1,4 +1,29 @@
 1>------ Build started: Project: simpledll, Configuration: Debug Win32 ------
+1>Build started 28-04-2014 18:05:48.
+1>InitializeBuildStatus:
+1>  Touching "Debug\simpledll.unsuccessfulbuild".
+1>ClCompile:
+1>  test.c
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(7): error C2143: syntax error : missing '{' before '__stdcall'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(8): error C2143: syntax error : missing '{' before '__stdcall'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(20): error C2143: syntax error : missing '{' before '__stdcall'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(46): error C2143: syntax error : missing '{' before '__stdcall'
+1>  simpledll.c
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(7): error C2143: syntax error : missing '{' before '__stdcall'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(8): error C2143: syntax error : missing '{' before '__stdcall'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(20): error C2143: syntax error : missing '{' before '__stdcall'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(10): error C2143: syntax error : missing '{' before '__stdcall'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(18): error C2143: syntax error : missing '{' before '__stdcall'
+1>  Generating Code...
+1>
+1>Build FAILED.
+1>
+1>Time Elapsed 00:00:03.36
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+
+1>------ Build started: Project: simpledll, Configuration: Debug Win32 ------
 1>Build started 28-04-2014 17:53:05.
 1>InitializeBuildStatus:
 1>  Touching "Debug\simpledll.unsuccessfulbuild".
