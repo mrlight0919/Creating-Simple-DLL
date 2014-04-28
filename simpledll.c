@@ -2,7 +2,6 @@
 // Not directly copied... The concept of this simple project is inspired from the book of Charles Petzold
 #include<windows.h>
 #include "simpledll.h"
-#include<windef.h>
 int WINAPI DllMain(HINSTANCE hInstance, DWORD fdwReason, PVOID pvReserved)
 {
 	return TRUE;
