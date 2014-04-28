@@ -6,19 +6,19 @@ int WINAPI DllMain(HINSTANCE hInstance, DWORD fdwReason, PVOID pvReserved)
 {
 	return TRUE;
 }
-export bool CALLBACK CenterTextA(HDC hdc, PRECT prc, PCSTR pString)
+export bool CALLBACK CenterTextA (HDC hdc, PRECT prc, LPCSTR pString)
 {
 	int iLength;
-	SIZE size;
-	iLength=lstrlenA(pString);
-	GetTextExtentPoint32A(hdc,pString,iLength,&size);
-	return TextOutA(hdc,(prc->right - prc->left - size.cx)/2,(prc->bottom - prc->top - size.cy)/2,pString,iLength);
+	LPSIZE lpsize;
+	iLength= lstrlenA(pString);
+	GetTextExtentPoint32A(HDC hdc, PCSTR pString ,int iLength , LPSIZE lpsize);
+	return TextOutA (hdc, prc(right - left - size.cx)/2, prc(bottom - top - size.cy)/2, pString, iLength);
 }
-export bool CALLBACK CenterTextW(HDC hdc, PRECT prc, PCSTR pString)
+export bool CALLBACK CenterTextW (HDC hdc, PRECT prc, PCWSTR pString)
 	{
 	int iLength;
-	SIZE size;
-	iLength=lstrlenW(pString);
-	GetTextExtentPoint32W(hdc,pString,iLength,&size);
-	return TextOutW(hdc,(prc->right - prc->left - size.cx)/2,(prc->bottom - prc->top - size.cy)/2,pString,iLength);
+	LPSIZE lpsize;
+	iLength= lstrlenW(pString);
+	GetTextExtentPoint32W (HDC hdc, LPTCSTR lpString ,int iLength , LPSIZE lpsize);
+	return TextOutW (hdc, prc(right - left - size.cx)/2, prc(bottom - top - size.cy)/2, pString, iLength);
 }
