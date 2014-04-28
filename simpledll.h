@@ -3,8 +3,8 @@
 #else
 #define export __declspec (dllexport)
 #endif
-export bool CALLBACK CenterTextA (HDC, PRECT, PCSTR)
-export bool CALLBACK CenterTextW (HDC, PRECT, PCWSTR)
+export bool CALLBACK CenterTextA (HDC, PRECT, PCSTR);
+export bool CALLBACK CenterTextW (HDC, PRECT, PCWSTR);
 #ifdef UNICODE
 #define CenterText CenterTextW
 #else
