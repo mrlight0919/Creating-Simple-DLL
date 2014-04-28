@@ -18,7 +18,7 @@
 #define PRECT prc
 #define LPCSTR pString
 #define LPCTSTR lpString
-#define int iLength
+#define iLength
 #define LPSIZE lpsize
 #define export BOOL CALLBACK CenterTextA ()
 #define export BOOL CALLBACK CenterTextW ()
@@ -40,10 +40,10 @@ BOOL TextOut(
 */
 //TextOutA
 #define prc()
-#define TextOutA (hdc, prc(right - left - size.cx)/2, prc(bottom - top - size.cy)/2, pString, iLength);
+#define TextOutA (hdc, prc((right-left-size.cx)/2,(bottom-top-size.cy)/2), pString, iLength);
 
 //TextOutW
-#define TextOutW (hdc, prc(right - left - size.cx)/2, prc(bottom - top - size.cy)/2, pString, iLength);
+#define TextOutW (hdc, prc((right-left-size.cx)/2,(bottom-top-size.cy)/2)/2, pString, iLength);
 #endif
 /* GetTextExtentPoint32 syntax generated in CPP
 BOOL GetTextExtentPoint32(
@@ -75,4 +75,10 @@ BOOL GetTextExtentPoint32(
 #define MSG msg
 #define HINSTANCE hPrevInstance
 #define PSTR szCmdLine
-#define int iCmdShow
+#define iCmdShow
+#define PAINTSTRUCT ps
+#define RECT rect
+#define GetClientRect()
+#define BeginPaint()
+#define EndPaint()
+
