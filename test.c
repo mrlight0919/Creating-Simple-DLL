@@ -3,10 +3,6 @@
 int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine, int iCmdShow)
 {
      static TCHAR szAppName[] = TEXT ("StrProg");
-     HWND hwnd;
-     MSG msg;
-     WNDCLASS wndclass;
-
      wndclass.style         = CS_HREDRAW | CS_VREDRAW;
      wndclass.lpfnWndProc   = WndProc;
      wndclass.cbClsExtra    = 0;
@@ -21,7 +17,7 @@ int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine
      if (!RegisterClass (&wndclass))
      {
           MessageBox (NULL, TEXT ("Woo Hoo"), szAppName, MB_ICONERROR);
-          return 0;
+          return 0 ;
      }
      
      hwnd = CreateWindow (szAppName, TEXT ("Testing..."),
@@ -41,11 +37,12 @@ int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine
      return msg.wParam;
 }
 
+
 export bool CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
-     HDC         hdc;
+     HDC hdc;
      PAINTSTRUCT ps;
-     RECT        rect;
+     RECT rect;
      
      switch(message)
      {
@@ -56,11 +53,11 @@ export bool CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lPa
           
           CenterText (hdc, &rect, TEXT ("This string displayed by a DLL"));
           
-          EndPaint (hwnd, &ps);
-          return 0;
+          EndPaint (hwnd, &ps) ;
+          return 0 ;
           
      case WM_DESTROY:
-          PostQuitMessage (0);
+          PostQuitMessage(0);
           return 0;
      }
      return DefWindowProc (hwnd, message, wParam, lParam);
