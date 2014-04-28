@@ -1,0 +1,21 @@
+1>------ Build started: Project: simpledll, Configuration: Debug Win32 ------
+1>Build started 28-04-2014 16:51:00.
+1>InitializeBuildStatus:
+1>  Touching "Debug\simpledll.unsuccessfulbuild".
+1>ClCompile:
+1>  simpledll.c
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(7): error C2055: expected formal parameter list, not a type list
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2085: 'CenterTextW' : not in formal parameter list
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2143: syntax error : missing ';' before 'type'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(6): error C2085: 'DllMain' : not in formal parameter list
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(6): error C2143: syntax error : missing ';' before '{'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(10): error C2084: function 'BOOL CenterTextA(HDC,PRECT,PCSTR)' already has a body
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(6) : see previous definition of 'CenterTextA'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(21): warning C4133: 'function' : incompatible types - from 'PCSTR' to 'LPCWSTR'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(22): warning C4133: 'function' : incompatible types - from 'PCSTR' to 'LPCWSTR'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(23): warning C4133: 'function' : incompatible types - from 'PCSTR' to 'LPCWSTR'
+1>
+1>Build FAILED.
+1>
+1>Time Elapsed 00:00:01.82
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
