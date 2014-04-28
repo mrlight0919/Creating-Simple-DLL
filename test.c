@@ -38,7 +38,7 @@ int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine
 }
 
 
-export bool CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
+export BOOL CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
      HDC hdc;
      PAINTSTRUCT ps;
