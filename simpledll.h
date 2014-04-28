@@ -17,6 +17,9 @@
 #define HDC hdc
 #define PRECT prc
 #define LPCSTR pString
+#define LPCTSTR lpString
+#define int iLength
+#define LPSIZE lpsize
 #define export BOOL CALLBACK CenterTextA (HDC hdc, PRECT prc, PCSTR pString);
 #define export BOOL CALLBACK CenterTextW (HDC hdc, PRECT prc, PCWSTR pString);
 #ifdef UNICODE
@@ -37,10 +40,10 @@ BOOL TextOut(
 */
 //TextOutA
 #define prc()
-TextOutA (hdc, prc(right - left - size.cx)/2, prc(bottom - top - size.cy)/2, pString, iLength);
+#define TextOutA (hdc, prc(right - left - size.cx)/2, prc(bottom - top - size.cy)/2, pString, iLength);
 
 //TextOutW
-TextOutW (hdc, prc(right - left - size.cx)/2, prc(bottom - top - size.cy)/2, pString, iLength);
+#define TextOutW (hdc, prc(right - left - size.cx)/2, prc(bottom - top - size.cy)/2, pString, iLength);
 #endif
 /* GetTextExtentPoint32 syntax generated in CPP
 BOOL GetTextExtentPoint32(
@@ -51,10 +54,10 @@ BOOL GetTextExtentPoint32(
 );
 */
 //GetTextExtentPoint32A
-#define GetTextExtentPoint32A(HDC hdc, LPCTSTR lpString,int iLength, LPSIZE lpsize);
+#define GetTextExtentPoint32A();
 
 //GetTextExtentPoint32W
-#define GetTextExtentPoint32W(HDC hdc, LPCTSTR lpString, int iLength , LPSIZE lpsize);
+#define GetTextExtentPoint32W();
 
 
 //test.c
@@ -74,3 +77,4 @@ BOOL GetTextExtentPoint32(
                           CW_USEDEFAULT, CW_USEDEFAULT,
                           CW_USEDEFAULT, CW_USEDEFAULT,
                           NULL, NULL, hInstance, NULL);
+
