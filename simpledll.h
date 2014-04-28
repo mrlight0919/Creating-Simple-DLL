@@ -12,7 +12,7 @@
 #endif
 
 //DllMain
-#define DWORD fdwReason
+#define DWORD message
 #define PVOID pvReserved
 #define HDC hdc
 #define PRECT prc
@@ -69,13 +69,13 @@ BOOL GetTextExtentPoint32(
 #define WPARAM wParam
 #define LPARAM lParam
 //WinMain
+#define char szAppName[]
 #define MSG msg
-#define HINSTANCE hPrevInstance
-#define PSTR szCmdLine
 #define iCmdShow
 #define PAINTSTRUCT ps
 #define RECT rect
-#define GetClientRect()
-#define BeginPaint()
-#define EndPaint()
-
+#define wndclass
+#define WndProc
+#define ShowWindow()
+#define UpdateWindow()
+#define CreateWindow()
