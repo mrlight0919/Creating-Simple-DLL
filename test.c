@@ -1,7 +1,7 @@
 #include <windows.h>
 #include "simpledll.h"
 
-bool CALLBACK WndProc (HWND, UINT, WPARAM, LPARAM) ;
+export bool CALLBACK WndProc (HWND, UINT, WPARAM, LPARAM) ;
 
 int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine, int iCmdShow)
 {
@@ -44,7 +44,7 @@ int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine
      return msg.wParam ;
 }
 
-LRESULT CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
+export bool CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
      HDC         hdc ;
      PAINTSTRUCT ps ;
