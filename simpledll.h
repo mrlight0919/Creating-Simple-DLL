@@ -20,8 +20,8 @@
 #define LPCTSTR lpString
 #define int iLength
 #define LPSIZE lpsize
-#define export BOOL CALLBACK CenterTextA (HDC hdc, PRECT prc, PCSTR pString);
-#define export BOOL CALLBACK CenterTextW (HDC hdc, PRECT prc, PCWSTR pString);
+#define export BOOL CALLBACK CenterTextA ()
+#define export BOOL CALLBACK CenterTextW ()
 #ifdef UNICODE
 #define CenterText CenterTextW
 #define TextOut TextOutW
@@ -66,15 +66,13 @@ BOOL GetTextExtentPoint32(
 #else
 #define EXPORT __declspec (dllexport)
 #endif
-#define export BOOL CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam);
+#define HWND hwnd
+#define UINT message
+#define WPARAM wParam
+#define LPARAM lParam
+#define export BOOL CALLBACK WndProc ()
 //WinMain
 #define MSG msg
 #define HINSTANCE hPrevInstance
 #define PSTR szCmdLine
 #define int iCmdShow
-#define hwnd = CreateWindow (szAppName, TEXT (" "),
-                          WS_OVERLAPPEDWINDOW,
-                          CW_USEDEFAULT, CW_USEDEFAULT,
-                          CW_USEDEFAULT, CW_USEDEFAULT,
-                          NULL, NULL, hInstance, NULL);
-
