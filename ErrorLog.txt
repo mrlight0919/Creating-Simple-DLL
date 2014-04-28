@@ -1,4 +1,61 @@
 1>------ Build started: Project: simpledll, Configuration: Debug Win32 ------
+1>Build started 28-04-2014 17:08:05.
+1>InitializeBuildStatus:
+1>  Touching "Debug\simpledll.unsuccessfulbuild".
+1>ClCompile:
+1>  simpledll.c
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(6): error C2143: syntax error : missing '{' before '__stdcall'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(7): error C2143: syntax error : missing '{' before '__stdcall'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(8): error C2143: syntax error : missing ';' before '{'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(9): warning C4098: 'main' : 'void' function returning a value
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(11): error C2143: syntax error : missing ';' before 'type'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(14): error C2275: 'SIZE' : illegal use of this type as an expression
+1>          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h(355) : see declaration of 'SIZE'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(14): error C2146: syntax error : missing ';' before identifier 'size'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(14): error C2065: 'size' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(15): error C2065: 'iLength' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(15): error C2065: 'pString' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(15): warning C4047: 'function' : 'LPCSTR' differs in levels of indirection from 'int'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(15): warning C4024: 'lstrlenA' : different types for formal and actual parameter 1
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(16): error C2065: 'hdc' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(16): warning C4047: 'function' : 'HDC' differs in levels of indirection from 'int'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(16): warning C4024: 'GetTextExtentPoint32A' : different types for formal and actual parameter 1
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(16): error C2065: 'pString' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(16): warning C4047: 'function' : 'LPCSTR' differs in levels of indirection from 'int'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(16): warning C4024: 'GetTextExtentPoint32A' : different types for formal and actual parameter 2
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(16): error C2065: 'iLength' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(16): error C2065: 'size' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(16): warning C4133: 'function' : incompatible types - from 'int *' to 'LPSIZE'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2065: 'hdc' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): warning C4047: 'function' : 'HDC' differs in levels of indirection from 'int'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): warning C4024: 'TextOutA' : different types for formal and actual parameter 1
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2065: 'prc' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2223: left of '->right' must point to struct/union
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2065: 'prc' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2223: left of '->left' must point to struct/union
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2065: 'size' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2224: left of '.cx' must have struct/union type
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2065: 'prc' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2223: left of '->bottom' must point to struct/union
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2065: 'prc' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2223: left of '->top' must point to struct/union
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2065: 'size' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2224: left of '.cy' must have struct/union type
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2065: 'pString' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2065: 'iLength' : undeclared identifier
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): error C2198: 'TextOutA' : too few arguments for call
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(17): warning C4098: 'main' : 'void' function returning a value
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(19): error C2143: syntax error : missing '{' before '__stdcall'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(27): error C2059: syntax error : '}'
+1>
+1>Build FAILED.
+1>
+1>Time Elapsed 00:00:01.56
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+
+1>------ Build started: Project: simpledll, Configuration: Debug Win32 ------
 1>Build started 28-04-2014 17:01:06.
 1>InitializeBuildStatus:
 1>  Touching "Debug\simpledll.unsuccessfulbuild".
