@@ -1,4 +1,59 @@
 1>------ Build started: Project: simpledll, Configuration: Debug Win32 ------
+1>Build started 28-04-2014 22:48:44.
+1>InitializeBuildStatus:
+1>  Touching "Debug\simpledll.unsuccessfulbuild".
+1>ClCompile:
+1>  test.c
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(23): warning C4005: 'export' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(11) : see previous definition of 'export'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(24): warning C4005: 'export' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(23) : see previous definition of 'export'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(69): warning C4005: 'export' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(24) : see previous definition of 'export'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(74): warning C4005: 'int' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(21) : see previous definition of 'int'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(76): error C2059: syntax error : 'constant'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(85): error C2010: '|' : unexpected in macro formal parameter list
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2143: syntax error : missing '{' before '__stdcall'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2146: syntax error : missing ')' before identifier 'hInstance'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2061: syntax error : identifier 'hInstance'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2059: syntax error : ';'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2059: syntax error : ','
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(3): error C2059: syntax error : ')'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(23): warning C4003: not enough actual parameters for macro 'CreateWindowA'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(29): warning C4003: not enough actual parameters for macro 'CreateWindowA'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(30): warning C4003: not enough actual parameters for macro 'CreateWindowA'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): warning C4003: not enough actual parameters for macro 'CreateWindowA'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(41): fatal error C1903: unable to recover from previous error(s); stopping compilation
+1>  simpledll.c
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(23): warning C4005: 'export' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(11) : see previous definition of 'export'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(24): warning C4005: 'export' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(23) : see previous definition of 'export'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(69): warning C4005: 'export' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(24) : see previous definition of 'export'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(74): warning C4005: 'int' : macro redefinition
+1>          c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(21) : see previous definition of 'int'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(76): error C2059: syntax error : 'constant'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(85): error C2010: '|' : unexpected in macro formal parameter list
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2143: syntax error : missing '{' before '__stdcall'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2146: syntax error : missing ')' before identifier 'hInstance'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2061: syntax error : identifier 'hInstance'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2059: syntax error : ';'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2059: syntax error : ','
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2059: syntax error : ')'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(9): warning C4003: not enough actual parameters for macro 'CreateWindowA'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(9): fatal error C1903: unable to recover from previous error(s); stopping compilation
+1>  Generating Code...
+1>
+1>Build FAILED.
+1>
+1>Time Elapsed 00:00:02.63
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+
+1>------ Build started: Project: simpledll, Configuration: Debug Win32 ------
 1>Build started 28-04-2014 22:34:42.
 1>InitializeBuildStatus:
 1>  Touching "Debug\simpledll.unsuccessfulbuild".
