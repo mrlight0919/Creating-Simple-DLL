@@ -1,4 +1,58 @@
 1>------ Build started: Project: simpledll, Configuration: Debug Win32 ------
+1>Build started 29-04-2014 00:38:16.
+1>InitializeBuildStatus:
+1>  Touching "Debug\simpledll.unsuccessfulbuild".
+1>ClCompile:
+1>  test.c
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(81): warning C4005: 'CreateWindow' : macro redefinition
+1>          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winuser.h(3899) : see previous definition of 'CreateWindow'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(4): error C2055: expected formal parameter list, not a type list
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(5): error C2133: 'szAppName' : unknown size
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(5): error C2146: syntax error : missing ';' before identifier 'szAppName'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(15): warning C4002: too many actual parameters for macro 'TEXT'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(15): warning C4133: '=' : incompatible types - from 'char [8]' to 'int []'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(15): error C2106: '=' : left operand must be l-value
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(17): error C2059: syntax error : ')'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(27): warning C4002: too many actual parameters for macro 'CreateWindow'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(27): error C2059: syntax error : ';'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(29): warning C4002: too many actual parameters for macro 'ShowWindow'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(30): warning C4002: too many actual parameters for macro 'UpdateWindow'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(32): error C2059: syntax error : 'while'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(37): error C2059: syntax error : 'return'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(38): error C2059: syntax error : '}'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\test.c(52): warning C4002: too many actual parameters for macro 'CenterTextA'
+1>  simpledll.c
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.h(81): warning C4005: 'CreateWindow' : macro redefinition
+1>          c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winuser.h(3899) : see previous definition of 'CreateWindow'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2146: syntax error : missing ')' before identifier 'message'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2081: 'message' : name in formal parameter list illegal
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2061: syntax error : identifier 'message'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2059: syntax error : ';'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2059: syntax error : ','
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(5): error C2059: syntax error : ')'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(9): warning C4002: too many actual parameters for macro 'CenterTextA'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(10): error C2059: syntax error : '{'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(13): warning C4002: too many actual parameters for macro 'GetTextExtentPoint32A'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(14): warning C4002: too many actual parameters for macro 'prc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(14): warning C4002: too many actual parameters for macro 'prc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(16): error C2146: syntax error : missing ')' before identifier 'hdc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(16): error C2061: syntax error : identifier 'hdc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(16): error C2059: syntax error : ';'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(16): error C2059: syntax error : ','
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(16): error C2059: syntax error : ')'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(20): warning C4002: too many actual parameters for macro 'GetTextExtentPoint32W'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(21): warning C4002: too many actual parameters for macro 'prc'
+1>c:\users\dell inspiron\documents\visual studio 2010\projects\simpledll\simpledll\simpledll.c(21): warning C4002: too many actual parameters for macro 'prc'
+1>  Generating Code...
+1>
+1>Build FAILED.
+1>
+1>Time Elapsed 00:00:02.64
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+
+1>------ Build started: Project: simpledll, Configuration: Debug Win32 ------
 1>Build started 29-04-2014 00:08:54.
 1>InitializeBuildStatus:
 1>  Touching "Debug\simpledll.unsuccessfulbuild".
