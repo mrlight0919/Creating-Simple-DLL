@@ -20,14 +20,12 @@
 #define LPCTSTR lpString
 #define iLength
 #define LPSIZE lpsize
-#define export BOOL CALLBACK CenterTextA ()
-#define export BOOL CALLBACK CenterTextW ()
 #ifdef UNICODE
 #define CenterText CenterTextW
 #define TextOut TextOutW
 #else
 #define CenterText CenterTextA
-#define CenterTextA (HDC hdc, PRECT prc, LPCSTR pString)
+#define CenterTextA()
 #define TextOut TextOutA
 /* TextOut function in CPP
 BOOL TextOut(
@@ -70,7 +68,6 @@ BOOL GetTextExtentPoint32(
 #define UINT message
 #define WPARAM wParam
 #define LPARAM lParam
-#define export BOOL CALLBACK WndProc ()
 //WinMain
 #define MSG msg
 #define HINSTANCE hPrevInstance
