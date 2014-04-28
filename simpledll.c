@@ -2,21 +2,19 @@
 // Not directly copied... The concept of this simple project is inspired from the book of Charles Petzold
 #include<windows.h>
 #include "simpledll.h"
-int WINAPI DllMain(HINSTANCE hInstance, DWORD fdwReason, PVOID pvReserved)
+int WINAPI DllMain(HINSTANCE hInstance, DWORD message, PVOID pvReserved)
 {
 	return TRUE;
 }
-EXPORT BOOL CALLBACK CenterTextA(HDC hdc, PRECT prc, LPCSTR pString)
+EXPORT BOOL CALLBACK CenterTextA(HDC hdc, PRECT prc, int iLength, LPCSTR pString)
 {
-	int iLength;
 	LPSIZE lpsize;
 	iLength= lstrlenA(pString);
 	GetTextExtentPoint32A(hdc, lpString, iLength, lpsize);
 	return TextOutA (hdc, prc((right-left-size.cx)/2,(bottom-top-size.cy)/2), pString, iLength);
 }
-EXPORT BOOL CALLBACK CenterTextW(HDC hdc, PRECT prc, PCWSTR pString)
+EXPORT BOOL CALLBACK CenterTextW(HDC hdc, PRECT prc, int iLength, PCWSTR pString)
 	{
-	int iLength;
 	LPSIZE lpsize;
 	iLength= lstrlenW(pString);
 	GetTextExtentPoint32W(hdc, lpString, iLength, lpsize);
