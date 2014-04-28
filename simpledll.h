@@ -10,13 +10,24 @@
 #else
 #define export __declspec (dllexport)
 #endif
-export bool CALLBACK CenterTextA (HDC hdc, PRECT prc, PCSTR pString);
-export bool CALLBACK CenterTextW (HDC hdc, PRECT prc, PCWSTR pString);
+
+//DllMain
+#define WINAPI
+#define HINSTANCE hInstance
+#define DWORD fdwReason
+#define PVOID pvReserved
+
+#define export bool CALLBACK CenterTextA (HDC hdc, PRECT prc, PCSTR pString);
+#define export bool CALLBACK CenterTextW (HDC hdc, PRECT prc, PCWSTR pString);
 #ifdef UNICODE
 #define CenterText CenterTextW
 #define TextOut TextOutW
 #else
 #define CenterText CenterTextA
+#define CenterTextA (HDC hdc, PRECT prc, LPCSTR pString)
+#define HDC hdc
+#define PRECT prc
+#define LPCSTR pString
 #define TextOut TextOutA
 #endif
 /* GetTextExtentPoint32 syntax generated in CPP
@@ -28,10 +39,10 @@ BOOL GetTextExtentPoint32(
 );
 */
 //GetTextExtentPoint32A
-bool GetTextExtentPoint32A(HDC hdc, LPCTSTR lpString,int iLength, LPSIZE lpsize);
+#define bool GetTextExtentPoint32A(HDC hdc, LPCTSTR lpString,int iLength, LPSIZE lpsize);
 
 //GetTextExtentPoint32W
-bool etTextExtentPoint32W(HDC hdc, LPCTSTR lpString, int iLength , LPSIZE lpsize);
+#define bool etTextExtentPoint32W(HDC hdc, LPCTSTR lpString, int iLength , LPSIZE lpsize);
 
 /* TextOut function in CPP
 BOOL TextOut(
@@ -43,6 +54,7 @@ BOOL TextOut(
 );
 */
 //TextOutA
+#define prc()
 TextOutA (hdc, prc(right - left - size.cx)/2, prc(bottom - top - size.cy)/2, pString, iLength);
 
 //TextOutW
@@ -54,4 +66,12 @@ TextOutW (hdc, prc(right - left - size.cx)/2, prc(bottom - top - size.cy)/2, pSt
 #else
 #define export __declspec (dllexport)
 #endif
-export bool CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam);
+#define export bool CALLBACK WndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam);
+//WinMain
+#define HWND hwnd
+#define MSG msg
+#define WNDCLASS wndclass
+#define HINSTANCE hInstance
+#define HINSTANCE hPrevInstance
+#define PSTR szCmdLine
+#define int iCmdShow
