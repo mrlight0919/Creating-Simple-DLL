@@ -3,6 +3,7 @@
 #include<string.h>
 #include<stdio.h>
 #include<conio.h>
+#include<wingdi.h>
 //simpledll.c
 #ifdef __cplusplus
 #define export extern "C" __declspec (dllexport)
