@@ -6,7 +6,7 @@ int WINAPI DllMain(HINSTANCE hInstance, DWORD fdwReason, PVOID pvReserved)
 {
 	return TRUE;
 }
-export bool CALLBACK CenterTextA (HDC hdc, PRECT prc, LPCSTR pString)
+export BOOL CALLBACK CenterTextA (HDC hdc, PRECT prc, LPCSTR pString)
 {
 	int iLength;
 	LPSIZE lpsize;
@@ -14,7 +14,7 @@ export bool CALLBACK CenterTextA (HDC hdc, PRECT prc, LPCSTR pString)
 	GetTextExtentPoint32A(HDC hdc, PCSTR pString ,int iLength , LPSIZE lpsize);
 	return TextOutA (hdc, prc(right - left - size.cx)/2, prc(bottom - top - size.cy)/2, pString, iLength);
 }
-export bool CALLBACK CenterTextW (HDC hdc, PRECT prc, PCWSTR pString)
+export BOOL CALLBACK CenterTextW (HDC hdc, PRECT prc, PCWSTR pString)
 	{
 	int iLength;
 	LPSIZE lpsize;
