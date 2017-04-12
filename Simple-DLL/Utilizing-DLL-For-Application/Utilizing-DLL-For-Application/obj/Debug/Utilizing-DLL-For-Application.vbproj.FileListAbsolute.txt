@@ -1,0 +1,13 @@
+C:\work\development\try-something\Simple-DLL\Utilizing-DLL-For-Application\Utilizing-DLL-For-Application\bin\Debug\Utilizing-DLL-For-Application.exe
+C:\work\development\try-something\Simple-DLL\Utilizing-DLL-For-Application\Utilizing-DLL-For-Application\bin\Debug\Utilizing-DLL-For-Application.pdb
+C:\work\development\try-something\Simple-DLL\Utilizing-DLL-For-Application\Utilizing-DLL-For-Application\bin\Debug\Utilizing-DLL-For-Application.xml
+C:\work\development\try-something\Simple-DLL\Utilizing-DLL-For-Application\Utilizing-DLL-For-Application\bin\Debug\DLL-Making.dll
+C:\work\development\try-something\Simple-DLL\Utilizing-DLL-For-Application\Utilizing-DLL-For-Application\bin\Debug\DLL-Making.pdb
+C:\work\development\try-something\Simple-DLL\Utilizing-DLL-For-Application\Utilizing-DLL-For-Application\bin\Debug\DLL-Making.xml
+C:\work\development\try-something\Simple-DLL\Utilizing-DLL-For-Application\Utilizing-DLL-For-Application\obj\Debug\Utilizing-DLL-For-Application.vbprojResolveAssemblyReference.cache
+C:\work\development\try-something\Simple-DLL\Utilizing-DLL-For-Application\Utilizing-DLL-For-Application\obj\Debug\Utilizing_DLL_For_Application.Form1.resources
+C:\work\development\try-something\Simple-DLL\Utilizing-DLL-For-Application\Utilizing-DLL-For-Application\obj\Debug\Utilizing_DLL_For_Application.Resources.resources
+C:\work\development\try-something\Simple-DLL\Utilizing-DLL-For-Application\Utilizing-DLL-For-Application\obj\Debug\Utilizing-DLL-For-Application.vbproj.GenerateResource.Cache
+C:\work\development\try-something\Simple-DLL\Utilizing-DLL-For-Application\Utilizing-DLL-For-Application\obj\Debug\Utilizing-DLL-For-Application.exe
+C:\work\development\try-something\Simple-DLL\Utilizing-DLL-For-Application\Utilizing-DLL-For-Application\obj\Debug\Utilizing-DLL-For-Application.xml
+C:\work\development\try-something\Simple-DLL\Utilizing-DLL-For-Application\Utilizing-DLL-For-Application\obj\Debug\Utilizing-DLL-For-Application.pdb

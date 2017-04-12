@@ -1,0 +1,9 @@
+C:\work\development\try-something\Simple-DLL\DLL-Making\DLL-Making\bin\Debug\DLL-Making.dll
+C:\work\development\try-something\Simple-DLL\DLL-Making\DLL-Making\bin\Debug\DLL-Making.pdb
+C:\work\development\try-something\Simple-DLL\DLL-Making\DLL-Making\bin\Debug\DLL-Making.xml
+C:\work\development\try-something\Simple-DLL\DLL-Making\DLL-Making\obj\Debug\DLL-Making.vbprojResolveAssemblyReference.cache
+C:\work\development\try-something\Simple-DLL\DLL-Making\DLL-Making\obj\Debug\DLL_Making.Resources.resources
+C:\work\development\try-something\Simple-DLL\DLL-Making\DLL-Making\obj\Debug\DLL-Making.vbproj.GenerateResource.Cache
+C:\work\development\try-something\Simple-DLL\DLL-Making\DLL-Making\obj\Debug\DLL-Making.dll
+C:\work\development\try-something\Simple-DLL\DLL-Making\DLL-Making\obj\Debug\DLL-Making.xml
+C:\work\development\try-something\Simple-DLL\DLL-Making\DLL-Making\obj\Debug\DLL-Making.pdb
